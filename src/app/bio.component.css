@@ -1,0 +1,13 @@
+mat-tab-group {
+   font:black;
+   position: absolute ;
+    top: 12%;
+    left: 10%;
+    width: 80%;
+    opacity: 1;
+    padding-bottom:5%;
+}
+
+mat-divider {
+    border-color: purple;
+}

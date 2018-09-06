@@ -1,0 +1,21 @@
+<mat-grid-list cols="2" row="3" gutterSize="3rem">
+  <mat-grid-tile class="title" colspan="1" rowspan="1">
+      <img src="https://fontmeme.com/permalink/180906/f4c269564e58b315cbfc8d430ff898a2.png" alt="handwriting-fonts" border="0">
+  </mat-grid-tile>
+  <mat-grid-tile class="menu" colspan="1" rowspan="1" >
+    <div class="buttons">
+      <p><button [ngx-scroll-to]="'#bio'" mat-button color="primary">Biografía</button></p>
+      <p><button [ngx-scroll-to]="'#gal'" mat-button color="primary">Galería</button></p>
+      <p><button mat-button color="primary" (click)="openContact()">Contacto</button></p>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile id="bio" class="bio" colspan="2" rowspan="1">
+    <app-bio></app-bio>
+  </mat-grid-tile>
+  <mat-grid-tile id="gal" class="gallery" colspan="2" rowspan="1">
+    <app-gallery></app-gallery>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+

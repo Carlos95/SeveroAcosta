@@ -1,0 +1,66 @@
+h1 {
+    font-family: 'Kameron', serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+
+button {
+    color:white;
+}
+
+.spacer {
+    flex: auto;
+}
+
+mat-toolbar {
+    opacity: 0.5;
+
+    color: grey;
+}
+
+.title img {
+    position:absolute;
+    top:2%;
+    height: 20%;
+    width: auto;
+}
+
+.menu {
+    background-color: gainsboro;
+    opacity: 0.5;
+    height:inherit;
+    width:auto;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 12%;
+    right: 16%;
+    opacity: 1;
+}
+
+.menu button {
+    font-family: 'Gruppo', cursive;
+    font-weight: 700;
+    font-size: 3vw;
+    padding:5px;
+}
+
+mat-grid-list {
+    overflow:hidden;
+}
+
+.bio {
+    background-color: #f5fbff;
+    overflow-y: scroll;
+}
+
+.gallery {
+    background-color: #f5fbff;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
